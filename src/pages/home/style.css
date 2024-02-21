@@ -1,0 +1,20 @@
+#banner {
+    background-image: url('https://i1.wp.com/allzone.com.br/wp-content/uploads/2022/01/FBwMEAMWQAA6BOO.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 100%;
+    height: 560px;    
+}
+
+@media(max-width: 768px) {
+    #banner {
+    background-image: url('https://cdn.entries.clios.com/styles/clio_aotw_ems_image_details_retina/s3/entry_attachments/image/72/2297/22197/123544/xBckjuirX08J68hRmi7_Zgv4jhFeC3AbYX8REOHE770.jpeg/xBckjuirX08J68hRmi7_Zgv4jhFeC3AbYX8REOHE770.jpeg');
+    
+    background-size: cover;
+    background-position: 50% 50%;
+    min-width: 100%;
+    max-width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    }
+}

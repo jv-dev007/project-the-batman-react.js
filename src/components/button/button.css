@@ -1,0 +1,28 @@
+.container-button {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.button {
+    width: 150px;
+    height: 50px;
+    background-color: green;
+    color: aliceblue;
+    border: none;
+    border-radius: 8px;
+}
+
+.disabled {
+    width: 150px;
+    height: 50px;
+    background-color: crimson;
+    color: black;
+    border: none;
+    border-radius: 8px;
+}
+
+span {
+    display: block;
+}

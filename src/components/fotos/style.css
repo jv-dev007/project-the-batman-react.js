@@ -1,0 +1,95 @@
+.elenco-container {
+    width: 100%;
+    height: 100%;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.elenco-content {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    column-gap: 30px;
+    row-gap: 30px;
+}
+
+.elenco-cards {
+    width: 240px;
+    height: 400px;
+    display: block;
+    cursor: pointer;
+    transition: .5s;
+
+}
+
+.elenco-cards:hover {
+    transform: scale(1.02);
+}
+
+#elenco-card {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-position: 50% 50%;
+}
+
+.elenco-nome {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    color: aliceblue;
+    font-size: 19px;
+}
+
+.elenco-bg-nome {
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 30px;
+}
+
+
+@media(max-width: 768px) {
+    .elenco-container {
+        width: 100%;
+        height: 100%;
+        padding-top: 30px;
+    }
+    
+    .elenco-content {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        column-gap: 50px;
+        row-gap: 30px;
+    }
+    
+    .elenco-cards {
+        width: 280px;
+        height: 490px;
+        display:block;
+        cursor: pointer;
+        transition: .5s;
+    
+    }
+    
+    .elenco-cards:hover {
+        transform: scale(1.02);
+    }
+    
+    #elenco-card {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        background-position: 50% 50%;
+    }
+    
+}
